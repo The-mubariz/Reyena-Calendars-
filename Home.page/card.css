@@ -1,0 +1,145 @@
+    
+    .collection-heading {
+    text-align: center;
+    padding: 50px 0;
+      
+    }
+
+    .collection-heading h2 {
+    font-size: 32px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    }
+    .card {
+    position: relative;
+    background: rgb(230, 230, 230);
+    overflow: hidden;
+    transition: 0.5s;
+    border: white;
+    height: 430px;
+    border-radius: 5%;
+    }
+  
+  .card:hover{
+    transform: translateY(5px);
+    box-shadow:  5px 2px 2px rgba(189, 189, 189, 0.263);
+
+  }
+  .card .img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+  }
+ .card:hover .img-box{
+    opacity: 0.5;
+  }
+  .card .img-box img{
+    width: 100%;
+    height: 100%;
+  }
+  .card .content{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: -40%;
+    padding: 20px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+  }
+   .card:hover .content{
+    bottom: 0 ;
+  }
+ .card:nth-child(1) .content{
+    /* background: linear-gradient(0deg,rgb(113, 132, 128), transparent); */
+    background-color: #002B5B;
+  }
+   .card .content h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: rgb(167, 167, 167);
+    font-size: 22px;
+  }
+  
+   .card .content p{
+    margin: 0px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.845);
+    font-size: 16px;
+  
+  }
+  @media (max-width: 570px) {
+    .team-card{
+      width: 400px;
+      /* margin-left: 75px; */
+      margin: auto;
+      padding-bottom: 80px;
+    }
+  }
+  
+  
+  /* button style........... */
+  
+  .button-1 {
+  
+    display: inline-flex;
+    height: 30px;
+    width: 110px;
+    border: 2px solid #dcdcdc;
+    margin: 20px 20px 20px 20px;
+    color: #fffefe;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .6em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+  }
+  
+  
+  #button-2 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  #button-2 a {
+    position: relative;
+    transition: all .3s ease-Out;
+  }
+  
+  #slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #e4e4e4ed;
+    position: absolute;
+    transition: all .30s ease-Out;
+    bottom: 0;
+  }
+  
+  #button-2:hover #slide {
+    left: 0;
+  }
+  
+  #button-2:hover a {
+    color: #004529;
+  }
+
+
+
+

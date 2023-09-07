@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <link rel="stylesheet" href="/Home.page/home.css">
+  <link rel="stylesheet" href="Home.page/card.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="/store.page/style.css"> -->
+  <title>Bootstrap Carousel</title>
+
+</head>
+<body>
+  
+
+  <!-- /////////////////// navbar ////////////// -->
+   <!-- /////////////////// navbar ////////////// -->
+   <!-- /////////////////// navbar ////////////// -->
+ <header>
+  <nav class="navbar navbar-expand-lg Ournavbar fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href=""><img src="/Home.page/calendar-.png" alt="" width="70px"><P class="logo">RYANA</P><P class="alogo">Calendars & Diaries</P></a>
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation bg-danger">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="bi bi-justify" style="color: white;font-size: 36px;"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about us/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownStore"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Store
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownStore">
+              <a class="dropdown-item" href="/store.page/store.html">Calendar</a>
+              <a class="dropdown-item" href="/store.page/store.html">Journals</a>
+              <a class="dropdown-item" href="/store.page/diaires.html">Diaries</a>
+              <a class="dropdown-item" href="/store.page/books.html">Books</a>
+
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Garlley page/garlley.html">Garlley</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Home.page/pricing.html">Pricing</a>
+          </li>
+          <div class="store">
+            <span i class="bi bi-bag-plus quantities"><b></b></span>
+           
+          </div>
+          <li class="nav-item">
+            
+            <span> <i class="bi bi-telephone-fill"></i></span>
+            <button class="styled-button">LOGIN</button>
+            
+          </li>
+      
+        </ul>
+      </div>         
+    </div>
+  </nav>
+    
+</header>
+  
+
+
+
+<!-- ////// carousel////// -->
+<section class="py-5">
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4500">
+    <div class="carousel-inner" style="position: relative;">
+      <div class="carousel-item active">
+        <img src="home.page/carousel1.jpg" alt="Image 1" class="d-block w-100 img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="home.page/carousel.2.jpg" alt="Image 2" class="d-block w-100 img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="home.page/carousel.3.jpg" alt="Image 3" class="d-block w-100 img-fluid">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+
+
+<!-- /////////////Features cards ////////////// -->
+
+<section style="background-color: #F9F5EB; ">  
+  <div class="container" style="  padding-bottom: 20px;" >
+    <!-- heading -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="collection-heading">
+            <h2>Explore Our Collection</h2>
+            <div class="lines">
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="row ">
+   
+          <div class="col-xl-3 col-sm-6 mb-5 team-card " data-aos="fade-right" data-aos-delay="100" data-os-duration="6000">
+              <div class="card">
+                  <div class="img-box">
+                  <img src="home.page/calendarcard.jpg" class="card-img-top" alt="Team Member">
+              </div>
+                  <div class="content">
+                      
+                      <div class="img-text">
+                          <h2>Calendar<br></h2>
+                          <p>"Organize time seamlessly with our versatile and vibrant calendars."</p>
+                           <div class="button-1" id="button-2">
+                            <div id="slide"></div>
+                            <a href="/store.page/store.html">Reed more</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        
+    
+    
+          <div class="col-xl-3 col-sm-6 mb-5 team-card" data-aos="fade-down" data-aos-delay="500" data-os-duration="9000">
+              <div class="card">
+                  <div class="img-box">
+                  <img src="home.page/jornals.jpg" class="card-img-top" alt="Team Member">
+              </div>
+                  <div class="content">
+                      
+                      <div class="img-text">
+                          <h2>Diaries<br></h2>
+                          <p>"Your thoughts, cherished—within our beautifully crafted diarie."</p>
+                           <div class="button-1" id="button-2">
+                            <div id="slide"></div>
+                            <a href="/store.page/diaires.html">Reed more</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+    
+    
+    
+    
+          <div class="col-xl-3 col-sm-6 mb-5 team-card" data-aos="fade-down"data-aos-delay="600" data-os-duration="9000">
+              <div class="card">
+                  <div class="img-box">
+                  <img src="home.page/f3.jpg" class="card-img-top" alt="Team Member">
+              </div>
+                  <div class="content">
+                      
+                      <div class="img-text">
+                          <h2>Journals<br></h2>
+                          <p>
+                            "Express yourself freely through our inspiring and timeless journals."</p>
+                           <div class="button-1" id="button-2">
+                            <div id="slide"></div>
+                            <a href="/store.page/journals.html">Reed more</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    
+    
+    
+    
+          <div class="col-xl-3 col-sm-6 mb-5 team-card" data-aos="fade-left"data-aos-delay="100" data-os-duration="6000">
+              <div class="card">
+                  <div class="img-box">
+                  <img src="home.page/f2.jpg" class="card-img-top" alt="Team Member">
+              </div>
+                  <div class="content">
+                      
+                      <div class="img-text">
+                          <h2>Books<br></h2>
+                          <p>
+                            "Unlock new worlds within our captivating collection of books."</p>
+                           <div class="button-1" id="button-2">
+                            <div id="slide"></div>
+                            <a href="/store.page/books.html">Reed more</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- Add more similar card divs here for other team members -->
+          
+      </div> 
+    </div>
+  </section>
+
+<!-- ///////////////// facilities cardsss////////// -->
+
+
+<section style="background-color: #E4DCCF;">
+  <div class="collection-heading" >
+    <h2>Our Facilities</h2>
+  </div>
+  <div class="container ">
+   
+
+    <div class="row"  data-aos="zoom-out" data-aos-delay="200" data-os-duration="10000">
+      <div class="col-md-4">
+        <div class="cardss facility-cardss mb-4">
+          <img src="home.page/f2.png" class="cardss-img-top" alt="Facility 1"  style="width: 100px; margin: auto;" >
+          <div class="cardss-body">
+            <h5 class="cardss-title">Personal Shopping Assistance</h5>
+            <p class="cardss-text">Our dedicated team is here to provide personalized shopping assistance to help you find the perfect products.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cardss facility-cardss mb-4">
+          <img src="home.page/f3.png" class="cardss-img-top" alt="Facility 2" style="width: 100px; margin: auto;">
+          <div class="cardss-body">
+            <h5 class="cardss-title">Gift Wrapping</h5>
+            <p class="cardss-text">Make your purchases even more special with our complimentary gift wrapping service. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="cardss facility-cardss mb-4">
+          <img src="home.page/f1.png" class="cardss-img-top" alt="Facility 3" style="width: 100px; margin: auto;">
+          <div class="cardss-body">
+            <h5 class="cardss-title">Easy Returns and Exchanges</h5>
+            <p class="cardss-text">We offer hassle-free returns and exchanges, ensuring that you're completely satisfied with your shopping experience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!-- client section /////////////// -->
+
+
+  <section style="background-color:#F9F5EB;"> 
+    
+    <div class="container " >
+      <div class="collection-heading" style="padding:40px;">
+        <h2>Our client</h2>
+      </div>
+      <div class="row">
+      <div class="col-lg-8 col-md-10 col-sm-12 m-auto paragraph-container">
+        <div class="center-aligned-paragraph">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl lobortis, malesuada nulla nec, finibus odio. Nulla facilisi. Maecenas feugiat enim vitae risus ultricies, et consequat sem facilisis. Sed congue sapien a magna feugiat facilisis. Fusce id posuere odio.
+            <!-- ... -->
+            <!-- The rest of your paragraph content goes here -->
+          </p>
+        </div>
+      </div>
+    </div>
+      <div class="row justify-content-center">
+        
+        <div class="col-2">
+          <img src="home.page/logo1.png" class="img-fluid" alt="Company Logo 1">
+        </div>
+        <div class="col-2">
+          <img src="home.page/logo2.png" class="img-fluid" alt="Company Logo 2">
+        </div>
+        <div class="col-2">
+          <img src="home.page/logo3.png" class="img-fluid" alt="Company Logo 3">
+        </div>
+        <div class="col-2">
+          <img src="home.page/logo4.png" class="img-fluid" alt="Company Logo 4">
+        </div>
+        <div class="col-2">
+          <img src="home.page/logo5.png" class="img-fluid" alt="Company Logo 5">
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+
+    <!-- //////footer/////// -->
+
+
+    <section id="footer" style="padding-top: 60px;">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+        
+          
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="/Home.page/home.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+              <li><a href="/about us/about.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+              <li><a href="/Garlley page/garlley.html"><i class="fa fa-angle-double-right"></i>Garrelly</a></li>
+              <li><a href="/contact/contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+              <li><a href="/store.page/store.html"><i class="fa fa-angle-double-right"></i>Store</a></li>
+              <li><a href="/Home.page/pricing.html"><i class="fa fa-angle-double-right"></i>Store</a></li>
+
+
+             
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Categories</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="/store.page/store.html"><i class="fa fa-angle-double-right"></i>Calendar</a></li>
+              <li><a href="/store.page/diaires.html"><i class="fa fa-angle-double-right"></i>Diraies</a></li>
+              <li><a href="/store.page/journals.html"><i class="fa fa-angle-double-right"></i>Journals</a></li>
+              <li><a href="/store.page/books.html"><i class="fa fa-angle-double-right"></i>Books</a></li>
+             
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Contact us</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>03182633253</a></li>
+              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>warisax@gmail.com</a></li>
+              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>9333430489</a></li>
+              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>mubari@gmail.com</a></li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          </hr>
+        </div>  
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p><u><a href="https://www.nationaltransaction.com/">Reyana Calendar</a></u> Efficiently Managing Your Year, One Day at a Time</p>
+            <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="target="_blank>Reyana</a></p>
+          </div>
+          </hr>
+        </div>  
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="/store.page/store.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>

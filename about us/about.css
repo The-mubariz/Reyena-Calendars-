@@ -1,0 +1,75 @@
+
+
+ 
+     
+    .collection-heading {
+      text-align: center;
+      padding: 40px 0 0;
+      
+    }
+
+    .collection-heading h2 {
+      font-size: 32px;
+      color: #333;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+
+
+/* about us /////////////// */
+/* Custom CSS for additional styling */
+.custom-carousel {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(65, 64, 64, 0.2);
+}
+
+.custom-carousel-img {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-content {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+    /* ........//////////// team css /////////////////,,,,, */
+    .team-card {
+    border: none;
+    transition: transform 0.5s;
+    
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+
